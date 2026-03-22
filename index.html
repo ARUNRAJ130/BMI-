@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(32, 45, 45);
+            text-align: center; 
+           
+        }
+        button{
+             color:rgb(163, 32, 40);
+            background-color:rgb(5, 5, 0);
+            border-style:none;
+            width: 500px;
+            border-radius:20px;
+            padding: 25px;
+            font-size:35px;
+        }
+        button:hover{
+            transform: scale(1.1);
+        }
+        input:hover{
+             transform: scale(1.1);
+
+        }
+        input{
+            height: 60px;
+            width:300px;
+            text-align: center;
+            background-color:rgb(11, 11, 10);
+             color:rgb(163,32,40);
+            border-style: none;
+            border-radius: 15px;
+            margin-bottom:20px;
+            margin-left:20px;
+            font-size:25px;
+            
+        }
+    </style>
+</head>
+<body>
+    <input id="heig" placeholder="Enter Your height in cm">
+    <input id="weig" placeholder="Enter Your weight">
+    <div>
+    <button onclick="bmi()">BMI Calculate</button>
+    <h2 id="result"> </h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
