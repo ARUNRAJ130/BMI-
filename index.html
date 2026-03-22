@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI calculator</title>
     <style>
-        body{
-            background-color: rgba(215, 212, 27, 0.905);
+         body{
+            background-color: rgb(232, 230, 96);
             text-align: center; 
             margin-top:200px;
         }
@@ -14,7 +14,7 @@
              color:rgb(163, 32, 40);
             background-color:rgb(5, 5, 0);
             border-style:none;
-            width: 500px;
+            width: 400px;
             border-radius:20px;
             padding: 25px;
             font-size:35px;
@@ -39,12 +39,19 @@
             font-size:25px;
             
         }
+        #continer{
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            
+
+        }
     </style>
 </head>
 <body>
+    <div id="continer">
     <input id="heig" placeholder="Enter Your height in cm">
     <input id="weig" placeholder="Enter Your weight">
-    <div>
     <button onclick="bmi()"> Calculate your BMI</button>
     <h2 id="result"> </h2>
     </div>
