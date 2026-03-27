@@ -4,72 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI calculator</title>
-    <style>
-         body{
-            background-color: rgba(223, 210, 66, 0.999);
-            text-align: center; 
-            
-        }
-        h1{
-            margin-top:-150px;
-            margin-bottom: 60px;
-            color: rgb(235, 39, 39);
-            font-size: 60px;
-        }
-        button{
-             color:rgb(163, 32, 40);
-            background-color:rgb(5, 5, 0);
-            border-style:none;
-            width: 400px;
-            border-radius:20px;
-            padding: 25px;
-            font-size:35px;
-        }
-        button:hover{
-            transform: scale(1.1);
-        }
-        input:hover{
-             transform: scale(1.1);
-
-        }
-        input{
-            height: 60px;
-            width:300px;
-            text-align: center;
-            background-color:rgb(11, 11, 10);
-             color:rgb(163,32,40);
-            border-style: none;
-            border-radius: 15px;
-            margin-bottom:20px;
-            margin-left:20px;
-            font-size:25px;   
-        }
-        #continer{
-            margin-top:200px;
-            display:flex;
-            flex-direction: column;
-            align-items:center;
-            background-color:white;
-            height:450px;
-            width:500px;
-           border-radius:30px;
-         margin-left:500px;
-        }
-        h2{
-            margin-top:30px;
-            font-size:40px;
-            color:#0b0462;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-    <div id="continer">
+    <div class="continer">
     <h1>Calculate your BMI</h1>
-    <input id="heig" placeholder="Enter Your height in cm">
-    <input id="weig" placeholder="Enter Your weight">
+    <input id="heig" placeholder=" height in cm">
+    <input id="weig" placeholder="weight in kg">
     <button onclick="bmi()"> Calculate your BMI</button>
-    <h2 id="result">your BMI will appear <br>here</h2>
+    <h2 id="result">BMI will appear <br>here</h2>
     </div>
     <script src="script.js"></script>
 </body>

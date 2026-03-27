@@ -15,7 +15,7 @@ if(total < 18.5 ){
 }
 if(total >= 18.5 && total < 24.9 ){
     result.style.color="#41bf28"
-    result.innerHTML=`Yours BMI is ${total.toFixed(2)} safe`;
+    result.innerHTML=`Yours BMI is ${total.toFixed(2)} Normal`;
 }
 if(total > 25 && total < 29.9)
 {
